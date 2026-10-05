@@ -5,7 +5,7 @@ SRC := $(wildcard src/*.c)
 TARGET = shellforge
 
 $(TARGET): $(SRC)
-	$(CC) $(CFLAGS) $(SRC) -lreadline -o $(TARGET)
+	gcc $(CFLAGS) $(SRC) -lreadline -o $(TARGET)
 
 clean:
 	rm -f $(TARGET)

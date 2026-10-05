@@ -11,14 +11,12 @@ void print_history(void)
         return;
     }
 
-    printf("\n------ Command History ------\n");
+    printf("\n----------- COMMAND HISTORY ------------\n");
 
     for (int i = 0; list[i] != NULL; i++)
     {
-        printf("%2d  %s\n",
-               i + history_base,
-               list[i]->line);
+        printf("%2d %s\n", i + history_base, list[i]->line);
     }
 
-    printf("-----------------------------\n");
+    printf("--------------------------------------------------\n");
 }

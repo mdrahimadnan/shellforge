@@ -1,0 +1,16 @@
+# Binaries and executables
+shellforge
+forge
+src/forge
+*.exe
+*.out
+
+# Object and precompiled header files
+*.o
+*.gch
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*~
